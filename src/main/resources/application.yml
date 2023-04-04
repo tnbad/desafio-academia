@@ -1,15 +1,14 @@
-
-server.port: 8081
+server.port: 8080
 
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
-    username: cami
-    password: root
+    username: thiago #postgres
+    password: dio123 #dio2023tt
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: update #drop
     properties:
       hibernate.format_sql: true
 
