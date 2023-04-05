@@ -30,4 +30,5 @@ public class AvaliacaoFisica {
   @Column(name="altura_atual")
   private double altura;
 
+
 }

@@ -29,7 +29,6 @@ public class MatriculaServiceImpl implements IMatriculaService {
 
     return matriculaRepository.save(matricula);
   }
-
   @Override
   public Matricula get(Long id) {
     return matriculaRepository.findById(id).get();

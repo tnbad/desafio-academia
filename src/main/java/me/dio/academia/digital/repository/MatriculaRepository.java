@@ -23,5 +23,4 @@ public interface MatriculaRepository extends JpaRepository<Matricula, Long> {
 
   //List<Matricula> findByAlunoBairro(String bairro);
 
-
 }

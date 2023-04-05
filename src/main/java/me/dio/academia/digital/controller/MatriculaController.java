@@ -26,5 +26,6 @@ public class MatriculaController {
     return service.getAll(bairro);
   }
 
+
 }
 

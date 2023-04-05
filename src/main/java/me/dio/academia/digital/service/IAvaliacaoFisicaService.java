@@ -41,4 +41,5 @@ public interface IAvaliacaoFisicaService {
    * @param id - id da Avaliação Física que será removida.
    */
   void delete(Long id);
+
 }
